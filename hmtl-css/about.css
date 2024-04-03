@@ -1,0 +1,151 @@
+:root {
+    background-color: black;
+}
+
+body {
+    background-color: var(background-color);
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {}
+
+header {
+    width: 100%;
+    height: 172px;
+    color: white;
+    margin-top: 70px;
+}
+
+.list {
+    display: inline;
+    position: absolute;
+    left: auto;
+    right: 100px;
+}
+
+.name {
+    margin-top: 30px;
+    margin-right: 150px;
+    display: inline-block;
+    margin-left: 90px;
+    font-family: lora, bold;
+    font-size: 2vw;
+
+
+
+}
+
+
+header ul {
+    display: inline-block;
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin-right: 250px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: inter, bold;
+}
+
+nav {
+    font-family: lora;
+    color: white;
+    width: 800px;
+    height: 400px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-area {
+    width: 600px;
+    height: 400px;
+    flex: 1;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    padding: 80px;
+    color: white;
+    text-align: center;
+    font-family: inter;
+
+}
+
+.bg {
+    position: absolute;
+    left: 150px;
+    width: 320px;
+    height: 280px;
+    margin: 20px 200px;
+
+}
+
+.nav-side {
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer {
+    width: 700px;
+    height: 200px;
+    margin: 80px auto;
+
+}
+
+h2 {
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    font-family: lora;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    font-family: inter;
+
+}
+
+
+.resume {
+
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.resume:hover {
+    background-color: #ddd;
+    color: #3e00e9;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.comm {
+    padding: 15px 25px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}

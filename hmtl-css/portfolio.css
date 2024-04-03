@@ -1,0 +1,130 @@
+.comm {
+    padding: 15px 25px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+:root {
+    background-color: black;
+}
+
+body {
+    background-color: var(background-color);
+}
+
+header {
+    width: 100%;
+    height: 172px;
+    color: white;
+    margin-top: 70px;
+}
+
+.list {
+    display: inline;
+    position: absolute;
+    left: auto;
+    right: 100px;
+}
+
+.name {
+    margin-top: 30px;
+    margin-right: 150px;
+    display: inline-block;
+    margin-left: 90px;
+    font-family: lora, bold;
+    font-size: 2vw;
+}
+
+
+header ul {
+    display: inline-block;
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin-right: 250px;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: inter, bold;
+
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.card {
+    color: white;
+    display: flex;
+    float: left;
+    margin: 10px 20px;
+    padding: 20px;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    word-wrap: break-word;
+
+}
+
+img {
+    border-radius: 20px;
+}
+
+
+.img {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    transition: all 0.5s ease-in-out;
+}
+
+@keyframes bigger {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.img:hover {
+    animation: bigger 1.5s ease-in-out;
+}
+
+.contex {
+    height: 200px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+    padding-bottom: 40px;
+
+
+}
+
+.git-btn {
+    width: 5px;
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+.git-btn :hover {
+    background-color: #ddd;
+    color: #3e00e9;
+}
